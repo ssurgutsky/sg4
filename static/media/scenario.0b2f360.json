@@ -411,6 +411,88 @@
                       ],
                       "_mark": "skip_rules",
                       "_content": "[LABEL Уже знаю]"
+                    },
+                    {
+                      "_mark": "",
+                      "_content": "[LABEL ][GOTO check_certificate]"
+                    },
+                    {
+                      "node": [
+                        {
+                          "node": [
+                            {
+                              "node": [
+                                {
+                                  "node": [
+                                    {
+                                      "node": [
+                                        {
+                                          "_mark": "mark_gpz4h2d5q2gj83yqc71b",
+                                          "_content": "[LABEL ][GOTO START]"
+                                        }
+                                      ],
+                                      "_mark": "",
+                                      "_content": "[LABEL ]"
+                                    }
+                                  ],
+                                  "_mark": "mark_f80u11uv548604r8v3v5",
+                                  "_content": "[LABEL ][NAVIGATEURL https://www.tinkoff.ru/cf/7xIiPBRWF9P]"
+                                }
+                              ],
+                              "_mark": "",
+                              "_content": "[LABEL Перевод Tinkoff]"
+                            },
+                            {
+                              "node": [
+                                {
+                                  "node": [
+                                    {
+                                      "node": [
+                                        {
+                                          "_mark": "mark_xw21sf4q2mxo3q0x9b78",
+                                          "_content": "[LABEL ][GOTO START]"
+                                        }
+                                      ],
+                                      "_mark": "",
+                                      "_content": "[LABEL ]"
+                                    }
+                                  ],
+                                  "_mark": "mark_n4f3t5qf3l1tjoui2c2f",
+                                  "_content": "[LABEL ][NAVIGATEURL https://qiwi.com/n/SERJIOS]"
+                                }
+                              ],
+                              "_mark": "",
+                              "_content": "[LABEL Перевод Qiwi]"
+                            },
+                            {
+                              "node": [
+                                {
+                                  "node": [
+                                    {
+                                      "node": [
+                                        {
+                                          "_mark": "mark_06z79l0n6q345b2ni5q2",
+                                          "_content": "[LABEL ][GOTO START]"
+                                        }
+                                      ],
+                                      "_mark": "",
+                                      "_content": "[LABEL ]"
+                                    }
+                                  ],
+                                  "_mark": "mark_iz89w1lh9902e1966gt6",
+                                  "_content": "[LABEL ][NAVIGATEURL https://yoomoney.ru/to/41001220674141]"
+                                }
+                              ],
+                              "_mark": "",
+                              "_content": "[LABEL Перевод YooMoney]"
+                            }
+                          ],
+                          "_mark": "mark_8o716rk6f9gm5w4vo191",
+                          "_content": "[LABEL Если понравилось, закинь сколько не жалко.][IMAGE donate.png]"
+                        }
+                      ],
+                      "_mark": "donate",
+                      "_content": "[LABEL Donate / Дать денежку]"
                     }
                   ],
                   "_mark": "mark_au0e5w32c3m410n44507",
@@ -419,10 +501,18 @@
               ],
               "_mark": "",
               "_content": "[LABEL НАЧАТЬ ИГРУ / START THE GAME]"
+            },
+            {
+              "_mark": "",
+              "_content": "[LABEL ][GOTO check_certificate]"
+            },
+            {
+              "_mark": "",
+              "_content": "[LABEL ][GOTO donate]"
             }
           ],
-          "_mark": "mark_6qt33ij77wk9z089lj79",
-          "_content": "[LABEL Stop Gop 4. Pogonyalo. Симулятор гопника, узнай свое погоняло!{script initQuestions}{script initNames}{script initSystem}][BGNDIMAGE Intro.jpg][ANSWERSORDER OFF]"
+          "_mark": "START",
+          "_content": "[LABEL Симулятор гопника, часть 4. Узнай свое погоняло!\nv1.{this.game_version}{script initQuestions}{script initNames}{script initSystem}][BGNDIMAGE Intro.jpg][ANSWERSORDER ON]"
         }
       ]
     }
